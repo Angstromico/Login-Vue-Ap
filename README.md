@@ -1,6 +1,6 @@
 # Vue App Login
 
-![image](https://raw.githubusercontent.com/Angstromico/Login-Vue-App/master/presentation.png)
+![image](https://raw.githubusercontent.com/Angstromico/Login-Vue-Ap/master/presentation.png)
 
 ## [You can see the App Here](https://manuel-login-vue-app.netlify.app/)
 
