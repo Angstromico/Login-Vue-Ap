@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Manuel Morales",
+    "email": "ManuEsteban1990@gmail.com",
+    "password": "Canaima3000",
+    "id": 0
+  },
+  {
+    "name": "Miguel Morales",
+    "email": "miggy_morales@gmail.com",
+    "password": 1234,
+    "id": 1
+  }
+]

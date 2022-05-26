@@ -1,0 +1,78 @@
+.image,
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 100%;
+  max-width: 1000px;
+  padding: 1rem 0;
+  margin: 2rem auto;
+  .logo {
+    width: 50%;
+    @media (min-width: 400px) {
+      width: 30%;
+    }
+    @media (min-width: 768px) {
+      width: 20%;
+    }
+  }
+}
+.login {
+  width: 90%;
+  max-width: 1000px;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: $dark;
+  animation: show 1.5s forwards;
+  input {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 90%;
+    @media (min-width: 400px) {
+      width: 70%;
+    }
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid #719ece;
+      box-shadow: 0 0 10px #719ece;
+      outline-color: cadetblue;
+    }
+  }
+  .btn {
+    background-color: $green;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    width: 90%;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 0.5px solid $green;
+    @media (min-width: 400px) {
+      width: 50%;
+    }
+    @media (min-width: 768px) {
+      width: 20%;
+    }
+    &:hover {
+      color: $green;
+      background-color: $dark;
+    }
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
